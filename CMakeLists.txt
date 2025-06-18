@@ -11,4 +11,5 @@ add_executable(Spartanix
     src/main.cpp
     src/train-test-split.cpp
     src/naiveBayes.cpp
+    src/labelEncoder.cpp
 )
