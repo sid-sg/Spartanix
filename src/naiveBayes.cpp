@@ -76,5 +76,5 @@ double NaiveBayes::score(const std::vector<std::vector<int>>& X, const std::vect
     for (int i = 0; i < X.size(); i++) {
         if (predict(X[i]) == y[i]) correct++;
     }
-    return (double)correct / X.size();
+    return static_cast<double>(correct) / X.size();
 }
